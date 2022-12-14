@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.NavBar {
+    width: 100%;
+    height: auto;
+    background-color: #2BACA4;
+    padding: 20px;
+}
+
+
+.container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbaritems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menulistitems li:hover {
+    text-decoration: underline;
+}
+
+.navbaritems img {
+    width: 50px;
+}
+
+.menulistitems {
+    display: flex;
+    list-style-type: none;
+    background-color: #145652;
+}
+
+.menulistitems li {
+    padding: 10px 10px;
+}
+
+.menulistitems a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+
+
+.firstSection {
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.firstsection .firstsectionleft {
+    width: 30%;
+    height: 200px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.firstsection .firstsectionright {
+    width: 70%;
+    padding: 10px;
+    height: 200px;
+    background-image: url('laptop.png');
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsection .firstsectionleft a {
+    display: flex;
+    justify-content: flex-end;
+    color: #2BACA4;
+    text-decoration: none
+}
+
+
+/* SECOND SECTION */
+
+.section2 h3 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+ 
+.section2 img {
+    border: 4px solid #2BACA4 ;
+}
+
+.section2 .section2first {
+    width: 33%;
+    height: 250px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section2 .section2first img {
+    float: left;
+   
+}
+
+.section2 .section2middle img {
+    float: left; 
+}
+
+.section2 .section2left img {
+    float: left; 
+}
+
+.section2 .section2middle {
+    width: 33%;
+    height: 250px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section2 .section2left {
+    width: 33%;
+    height: 250px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section2 .section2first a {
+    display: flex;
+    justify-content: flex-end;
+    color: #2BACA4;
+    text-decoration: none;
+}
+
+.section2 .section2middle a {
+    display: flex;
+    justify-content: flex-end;
+    color: #2BACA4;
+    text-decoration: none;
+}
+
+.section2 .section2left a {
+    display: flex;
+    justify-content: flex-end;
+    color: #2BACA4;
+    text-decoration: none;
+}
+
+.container .section2 {
+    display: flex;
+}
+
+/* THIRD SECTION  */ 
+
+.section3 h4 {
+    padding:5px
+}
+
+.section3 img {
+    border: 4px solid #2BACA4;
+}
+
+.container .section3 {
+    display: flex;
+}
+
+.section3 .c3left {
+    width: 24%;
+    height: 283px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section3 .c3middle1 {
+    width: 24%;
+    height: 283px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section3 .c3middle2 {
+    width: 24%;
+    height: 283px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section3 .c3right {
+    width: 24%;
+    height: 283px ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section3 img  {
+    display: flex;
+    justify-content: center;
+    width: 99%;
+}
+
+.section3 h1 {
+    display: flex;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:#2BACA4;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.footer .footeritems {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+
